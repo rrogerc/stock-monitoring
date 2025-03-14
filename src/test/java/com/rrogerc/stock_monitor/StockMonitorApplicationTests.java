@@ -1,10 +1,10 @@
-package com.rrogerc.stock_monitoring;
+package com.rrogerc.stock_monitor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StockMonitoringApplicationTests {
+class StockMonitorApplicationTests {
 
 	@Test
 	void contextLoads() {

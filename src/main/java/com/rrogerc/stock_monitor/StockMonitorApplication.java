@@ -1,13 +1,13 @@
-package com.rrogerc.stock_monitoring;
+package com.rrogerc.stock_monitor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StockMonitoringApplication {
+public class StockMonitorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StockMonitoringApplication.class, args);
+		SpringApplication.run(StockMonitorApplication.class, args);
 	}
 
 }
