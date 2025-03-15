@@ -121,7 +121,7 @@ Default output format [None]: json
 
 ---
 
-### ✅ **6. Build the Docker Image**
+### **6. Build the Docker Image**
 ```bash
 docker build --platform linux/arm64 -t stock-monitor .
 ```
@@ -160,7 +160,7 @@ curl -X POST "http://localhost:8080/api/stocks/send?symbol=AAPL&price=180"
 
 ---
 
-### **📈 Get Stock Price History**
+### **Get Stock Price History**
 **GET** `/api/stocks/history`
 - Returns the last N stock price updates (default: 5).
 
