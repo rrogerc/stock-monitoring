@@ -1,0 +1,9 @@
+target
+*.jar
+*.class
+*.log
+*.git
+*.idea
+.DS_Store
+node_modules
+.env
