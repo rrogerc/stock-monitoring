@@ -91,7 +91,7 @@ spring.kafka.properties.sasl.client.callback.handler.class=software.amazon.msk.a
 
 ---
 
-### ✅ **4. Set Up AWS Credentials**
+### **4. Set Up AWS Credentials**
 Install the AWS CLI:
 
 ```bash
@@ -114,7 +114,7 @@ Default output format [None]: json
 
 ---
 
-### ✅ **5. Build the Project with Maven**
+### **5. Build the Project with Maven**
 ```bash
 ./mvnw clean install
 ```
@@ -128,7 +128,7 @@ docker build --platform linux/arm64 -t stock-monitor .
 
 ---
 
-### ✅ **7. Run the Docker Container**
+### **7. Run the Docker Container**
 ```bash
 docker run --platform linux/amd64 -p 8080:8080 \
   -e SPRING_PROFILES_ACTIVE=prod \
